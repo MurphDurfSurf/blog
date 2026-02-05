@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Mason Murphy
 ---
 
 I'd like to start by saying that this post had more hiccups than I care to admit. Although overall the assignment is fairly lax compared to what's to come, it had me dwelling for hours on something that could have been done in minutes. Mainly things like getting Ruby on my desktop. Oh, you know not the indescribable woe that was cascaded over my ignorant soul. My computer was steadfast in its diagnoses on Ruby being a Bitcoin miner that would take every percent of my GPU and feed some offshore Lithuanian deadbeat. But that's in the past, and I’ve gotten everything to work now.
