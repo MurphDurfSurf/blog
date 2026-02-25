@@ -1,6 +1,27 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
+
+.wrapper {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+// Style the site header
+.site-header {
+  font-family: 'Courier New', Courier, monospace
+}
+
+// Add lines between posts in the post list
+.post-list li {
+  border-bottom: 1px solid #ddd;  
+  padding-bottom: 1rem;           
+  margin-bottom: 1rem;            
+}
+
+// Remove the line from the last post to avoid extra spacing
+.post-list li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
 
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
